@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-row></el-row>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import ElRow from '@element/Row.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    ElRow,
   },
 };
 </script>
